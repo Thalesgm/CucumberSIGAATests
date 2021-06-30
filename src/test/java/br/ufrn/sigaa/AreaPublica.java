@@ -39,7 +39,7 @@ public class AreaPublica {
     public void usuario_seleciona_a_opcao_componentes_curriculares_no_menu_graduacao() throws InterruptedException {
         driver.findElement(By.id("l-graduacao")).click();
         TimeUnit.SECONDS.sleep(1);
-        driver.findElement(By.xpath("/html/body/div/div/div[2]/div[2]/div[2]/div[2]/div/div[2]/dl/dt[2]/div/a")).click();
+        driver.findElement(By.xpath("/html/body/div/div/div[2]/div[1]/div[2]/div[2]/div/div[2]/dl/dt[2]/div")).click();
 
     }
     @Entao("o sistema deve exibir o form de busca por Componentes")
